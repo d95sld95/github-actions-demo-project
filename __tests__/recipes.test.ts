@@ -8,7 +8,7 @@ afterAll(() => {
 describe("Recipes API Endpoints", () => {
   test("GET /recipes/:id", async () => {
 
-    const res = await request(server).get("/recipes/1");
+    const res = await request(server).get("/rexxcipes/1");
 
     // The response should have a status code of 200
 
